@@ -1,0 +1,30 @@
+#
+# For a description of the syntax of this configuration file,
+# see the file kconfig-language.txt in the NuttX tools repository.
+#
+
+config EXAMPLES_HELLOWORLD
+	bool "\"Hello, World,leoQ!\" example"
+	default n
+	---help---
+		Enable the \"Hello, World,leoQ!\" example
+
+if EXAMPLES_HELLOWORLD
+
+config EXAMPLES_HELLOWORLD_PROGNAME
+	string "Program name"
+	default "helloworld"
+	depends on BUILD_KERNEL
+	---help---
+		This is the name of the program that will be use when the NSH ELF
+		program is installed.
+
+config EXAMPLES_HELLOWORLD_PRIORITY
+	int "Helloworld task priority"
+	default 100
+
+config EXAMPLES_HELLOWORLD_STACKSIZE
+	int "Helloworld stack size"
+	default 2048
+
+endif

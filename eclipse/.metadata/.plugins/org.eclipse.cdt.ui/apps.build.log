@@ -1,0 +1,8 @@
+19:34:48 **** Build of configuration Default for project apps ****
+make all 
+/home/landzo/Nuttx/apps/import/Make.defs:36: /home/landzo/Nuttx/apps/import/.config: No such file or directory
+/home/landzo/Nuttx/apps/import/Make.defs:37: /home/landzo/Nuttx/apps/import/build/Make.defs: No such file or directory
+make: *** No rule to make target '/home/landzo/Nuttx/apps/import/build/Make.defs'.  Stop.
+
+19:34:48 Build Finished (took 181ms)
+

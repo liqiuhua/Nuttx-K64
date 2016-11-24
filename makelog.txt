@@ -1,0 +1,48 @@
+make[1]: Entering directory '/home/landzo/Nuttx/nuttx/tools'
+make[1]: Leaving directory '/home/landzo/Nuttx/nuttx/tools'
+make[1]: Entering directory '/home/landzo/Nuttx/nuttx/tools'
+make[1]: Leaving directory '/home/landzo/Nuttx/nuttx/tools'
+LN: include/arch/board to /home/landzo/Nuttx/nuttx/configs/freedom-k64f/include
+LN: include/arch/chip to arch/arm/include/kinetis
+LN: arch/arm/src/chip to arch/arm/src/kinetis
+make[1]: Entering directory '/home/landzo/Nuttx/nuttx/configs'
+make[1]: Leaving directory '/home/landzo/Nuttx/nuttx/configs'
+make[1]: Entering directory '/home/landzo/Nuttx/apps'
+make[2]: Entering directory '/home/landzo/Nuttx/apps/platform'
+LN: platform/board to /home/landzo/Nuttx/apps/platform/dummy
+make[2]: Leaving directory '/home/landzo/Nuttx/apps/platform'
+make[1]: Leaving directory '/home/landzo/Nuttx/apps'
+make[1]: Entering directory '/home/landzo/Nuttx/nuttx/configs'
+make[2]: Entering directory '/home/landzo/Nuttx/nuttx/configs/freedom-k64f/src'
+make[2]: Nothing to be done for 'context'.
+make[2]: Leaving directory '/home/landzo/Nuttx/nuttx/configs/freedom-k64f/src'
+make[1]: Leaving directory '/home/landzo/Nuttx/nuttx/configs'
+make[1]: Entering directory '/home/landzo/Nuttx/apps'
+make[2]: Entering directory '/home/landzo/Nuttx/apps/builtin'
+make[3]: Entering directory '/home/landzo/Nuttx/apps/builtin/registry'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/landzo/Nuttx/apps/builtin/registry'
+make[2]: Leaving directory '/home/landzo/Nuttx/apps/builtin'
+make[2]: Entering directory '/home/landzo/Nuttx/apps'
+make[3]: Entering directory '/home/landzo/Nuttx/apps/examples/pwm'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/landzo/Nuttx/apps/examples/pwm'
+make[3]: Entering directory '/home/landzo/Nuttx/apps/examples/nsh'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/landzo/Nuttx/apps/examples/nsh'
+make[3]: Entering directory '/home/landzo/Nuttx/apps/nshlib'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/landzo/Nuttx/apps/nshlib'
+make[3]: Entering directory '/home/landzo/Nuttx/apps/builtin'
+make[4]: Entering directory '/home/landzo/Nuttx/apps/builtin/registry'
+make[4]: Nothing to be done for 'context'.
+make[4]: Leaving directory '/home/landzo/Nuttx/apps/builtin/registry'
+make[3]: Leaving directory '/home/landzo/Nuttx/apps/builtin'
+make[3]: Entering directory '/home/landzo/Nuttx/apps/system/readline'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/landzo/Nuttx/apps/system/readline'
+make[3]: Entering directory '/home/landzo/Nuttx/apps/platform'
+LN: platform/board to /home/landzo/Nuttx/apps/platform/dummy
+make[3]: Leaving directory '/home/landzo/Nuttx/apps/platform'
+make[2]: Leaving directory '/home/landzo/Nuttx/apps'
+make[1]: Leaving directory '/home/landzo/Nuttx/apps'
